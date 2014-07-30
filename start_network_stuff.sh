@@ -1,5 +1,5 @@
 #!/bin/bash
-/usr/sbin/openvpn --config /etc/openvpn/ofelia.conf 12> /home/connet/vpn.log &
+/usr/sbin/openvpn --config /etc/openvpn/UCL-ovpn-client.conf 12> /home/connet/UCLvpn.log &
 /sbin/vconfig add eth4 10
 /sbin/vconfig add eth4 11
 /sbin/vconfig add eth4 12
