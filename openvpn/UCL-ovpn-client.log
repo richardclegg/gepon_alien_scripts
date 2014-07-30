@@ -1,0 +1,106 @@
+Wed Jul 30 18:30:37 2014 OpenVPN 2.1.1 i686-redhat-linux-gnu [SSL] [LZO2] [EPOLL] [PKCS11] built on Jan  5 2010
+Wed Jul 30 18:30:37 2014 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Wed Jul 30 18:30:37 2014 LZO compression initialized
+Wed Jul 30 18:30:37 2014 Control Channel MTU parms [ L:1574 D:138 EF:38 EB:0 ET:0 EL:0 ]
+Wed Jul 30 18:30:37 2014 Data Channel MTU parms [ L:1574 D:1450 EF:42 EB:135 ET:32 EL:0 AF:3/1 ]
+Wed Jul 30 18:30:37 2014 Local Options hash (VER=V4): 'd79ca330'
+Wed Jul 30 18:30:37 2014 Expected Remote Options hash (VER=V4): 'f7df56b8'
+Wed Jul 30 18:30:37 2014 Socket Buffers: R=[112640->131072] S=[112640->131072]
+Wed Jul 30 18:30:37 2014 UDPv4 link local: [undef]
+Wed Jul 30 18:30:37 2014 UDPv4 link remote: 137.222.204.26:1195
+Wed Jul 30 18:30:37 2014 TLS: Initial packet from 137.222.204.26:1195, sid=bc4758f8 15f81efe
+Wed Jul 30 18:30:37 2014 VERIFY OK: depth=1, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 18:30:37 2014 VERIFY OK: nsCertType=SERVER
+Wed Jul 30 18:30:37 2014 VERIFY OK: depth=0, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 18:30:37 2014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 18:30:37 2014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 18:30:37 2014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 18:30:37 2014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 18:30:37 2014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Wed Jul 30 18:30:37 2014 [changeme] Peer Connection Initiated with 137.222.204.26:1195
+Wed Jul 30 18:30:39 2014 SENT CONTROL [changeme]: 'PUSH_REQUEST' (status=1)
+Wed Jul 30 18:30:39 2014 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.216.20.33,ping 10,ping-restart 120,ifconfig 10.216.20.240 255.255.255.0'
+Wed Jul 30 18:30:39 2014 OPTIONS IMPORT: timers and/or timeouts modified
+Wed Jul 30 18:30:39 2014 OPTIONS IMPORT: --ifconfig/up options modified
+Wed Jul 30 18:30:39 2014 OPTIONS IMPORT: route-related options modified
+Wed Jul 30 18:30:39 2014 TUN/TAP device tap0 opened
+Wed Jul 30 18:30:39 2014 TUN/TAP TX queue length set to 100
+Wed Jul 30 18:30:39 2014 /sbin/ip link set dev tap0 up mtu 1500
+Wed Jul 30 18:30:39 2014 /sbin/ip addr add dev tap0 10.216.20.240/24 broadcast 10.216.20.255
+Wed Jul 30 18:30:39 2014 Initialization Sequence Completed
+Wed Jul 30 19:30:37 2014 VERIFY OK: depth=1, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 19:30:37 2014 VERIFY OK: nsCertType=SERVER
+Wed Jul 30 19:30:37 2014 VERIFY OK: depth=0, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 19:30:37 2014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 19:30:37 2014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 19:30:37 2014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 19:30:37 2014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 19:30:37 2014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Wed Jul 30 20:30:37 2014 TLS: soft reset sec=0 bytes=383010/0 pkts=3384/0
+Wed Jul 30 20:30:37 2014 VERIFY OK: depth=1, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 20:30:37 2014 VERIFY OK: nsCertType=SERVER
+Wed Jul 30 20:30:37 2014 VERIFY OK: depth=0, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 20:30:37 2014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 20:30:37 2014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 20:30:37 2014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 20:30:37 2014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 20:30:37 2014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Wed Jul 30 21:30:36 2014 VERIFY OK: depth=1, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 21:30:36 2014 VERIFY OK: nsCertType=SERVER
+Wed Jul 30 21:30:36 2014 VERIFY OK: depth=0, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 21:30:36 2014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 21:30:36 2014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 21:30:36 2014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 21:30:36 2014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 21:30:36 2014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Wed Jul 30 21:30:51 2014 event_wait : Interrupted system call (code=4)
+Wed Jul 30 21:30:51 2014 TCP/UDP: Closing socket
+Wed Jul 30 21:30:51 2014 Closing TUN/TAP interface
+Wed Jul 30 21:30:51 2014 /sbin/ip addr del dev tap0 10.216.20.240/24
+Wed Jul 30 21:30:51 2014 SIGHUP[hard,] received, process restarting
+Wed Jul 30 21:30:51 2014 OpenVPN 2.1.1 i686-redhat-linux-gnu [SSL] [LZO2] [EPOLL] [PKCS11] built on Jan  5 2010
+Wed Jul 30 21:30:51 2014 Restart pause, 2 second(s)
+Wed Jul 30 21:30:53 2014 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Wed Jul 30 21:30:53 2014 LZO compression initialized
+Wed Jul 30 21:30:53 2014 Control Channel MTU parms [ L:1574 D:138 EF:38 EB:0 ET:0 EL:0 ]
+Wed Jul 30 21:30:53 2014 Data Channel MTU parms [ L:1574 D:1450 EF:42 EB:135 ET:32 EL:0 AF:3/1 ]
+Wed Jul 30 21:30:53 2014 Local Options hash (VER=V4): 'd79ca330'
+Wed Jul 30 21:30:53 2014 Expected Remote Options hash (VER=V4): 'f7df56b8'
+Wed Jul 30 21:30:53 2014 Socket Buffers: R=[112640->131072] S=[112640->131072]
+Wed Jul 30 21:30:53 2014 UDPv4 link local: [undef]
+Wed Jul 30 21:30:53 2014 UDPv4 link remote: 137.222.204.26:1195
+Wed Jul 30 21:30:53 2014 TLS: Initial packet from 137.222.204.26:1195, sid=6f407c38 cbe61f4e
+Wed Jul 30 21:30:53 2014 VERIFY OK: depth=1, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 21:30:53 2014 VERIFY OK: nsCertType=SERVER
+Wed Jul 30 21:30:53 2014 VERIFY OK: depth=0, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 21:30:53 2014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 21:30:53 2014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 21:30:53 2014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 21:30:53 2014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 21:30:53 2014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Wed Jul 30 21:30:53 2014 [changeme] Peer Connection Initiated with 137.222.204.26:1195
+Wed Jul 30 21:30:55 2014 SENT CONTROL [changeme]: 'PUSH_REQUEST' (status=1)
+Wed Jul 30 21:30:55 2014 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.216.20.33,ping 10,ping-restart 120,ifconfig 10.216.20.240 255.255.255.0'
+Wed Jul 30 21:30:55 2014 OPTIONS IMPORT: timers and/or timeouts modified
+Wed Jul 30 21:30:55 2014 OPTIONS IMPORT: --ifconfig/up options modified
+Wed Jul 30 21:30:55 2014 OPTIONS IMPORT: route-related options modified
+Wed Jul 30 21:30:55 2014 TUN/TAP device tap0 opened
+Wed Jul 30 21:30:55 2014 TUN/TAP TX queue length set to 100
+Wed Jul 30 21:30:55 2014 /sbin/ip link set dev tap0 up mtu 1500
+Wed Jul 30 21:30:55 2014 /sbin/ip addr add dev tap0 10.216.20.240/24 broadcast 10.216.20.255
+Wed Jul 30 21:30:55 2014 Initialization Sequence Completed
+Wed Jul 30 22:30:52 2014 VERIFY OK: depth=1, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 22:30:52 2014 VERIFY OK: nsCertType=SERVER
+Wed Jul 30 22:30:52 2014 VERIFY OK: depth=0, /C=UK/ST=BS/L=Bristol/O=University_of_Bristol/OU=changeme/CN=changeme/name=changeme/emailAddress=highperformance-networks@bristol.ac.uk
+Wed Jul 30 22:30:52 2014 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 22:30:52 2014 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 22:30:52 2014 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Wed Jul 30 22:30:52 2014 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Jul 30 22:30:52 2014 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA
+Wed Jul 30 22:40:29 2014 event_wait : Interrupted system call (code=4)
+Wed Jul 30 22:40:29 2014 TCP/UDP: Closing socket
+Wed Jul 30 22:40:29 2014 Closing TUN/TAP interface
+Wed Jul 30 22:40:29 2014 /sbin/ip addr del dev tap0 10.216.20.240/24
+Wed Jul 30 22:40:30 2014 SIGHUP[hard,] received, process restarting
+Wed Jul 30 22:40:30 2014 OpenVPN 2.1.1 i686-redhat-linux-gnu [SSL] [LZO2] [EPOLL] [PKCS11] built on Jan  5 2010
+Wed Jul 30 22:40:30 2014 Restart pause, 2 second(s)
