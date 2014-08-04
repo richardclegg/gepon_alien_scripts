@@ -7,4 +7,4 @@
 /sbin/ifconfig eth3 172.16.201.1 netmask 255.255.255.0
 /sbin/route add -net 10.216.40.0 netmask 255.255.255.0 gw 172.16.201.254
 /sbin/route add -net 10.216.23.0 netmask 255.255.255.0 gw 172.16.201.254
-
+/sbin/route add -net 10.216.22.0 netmask 255.255.255.0 gw 172.16.201.254
